@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="application-name" content="Shopping List">
+    <meta name="description" content="An Offline First demo of a shopping list using vanilla JavaScript and PouchDB">
+    <meta name="keywords" content="Offline First,HTML,CSS,XML,JavaScript,PouchDB">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<div class="card">
+  <div class="header">
+    <h1> Shopping List </h1>
+  </div>
+  <div class="container">
+    <ul id="cart">
+    </ul>
+  </div>
+  <div class="footer">
+    <h3>Total:</h3>
+    <span id="total-price"></span>
+  </div>
+</div>
+
+
+
+  <div class="card">
+  <div class="header">
+    <h1> Shopping List2 </h1>
+  </div>
+  <div class="container">
+    <ul id="cart1">
+    </ul>
+  </div>
+  <div class="footer">
+    <h3>Total:</h3>
+    <span id="total-price1"></span>
+  </div>
+</div>
+
+<div class="inputArea">
+  <input type="text" id="name" />
+  <input type="text" id="price" />
+  <button onclick="addToCart()">Add To Cart</button>
+
+<br/>
+<br/>
+<br/>
+
+
+<div class="inputArea2">
+  <input type="text" id="name1" />
+  <input type="text" id="price1" />
+  <button onclick="addToCart2()">Add To Cart</button>
+  
+
+
+<script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>

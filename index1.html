@@ -1,0 +1,115 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Javascript </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+     <meta charset="utf-8">
+    <meta name="application-name" content="Shopping List">
+    <meta name="description" content="An Offline First demo of a shopping list using vanilla JavaScript and PouchDB">
+    <meta name="keywords" content="Offline First,HTML,CSS,XML,JavaScript,PouchDB">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body class= "bg-warning">
+       
+   
+   <div class="container1">
+  <h2>Choose lists</h2>
+  <div id="accordion">
+   
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Shopping List1
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+
+
+         
+    
+   <div class="card">
+  <div class="header">
+    <h1> Shopping List1 </h1>
+  </div>
+  <div class="container">
+    <ul id="cart">
+    </ul>
+  </div>
+  <div class="footer">
+    <h3>Total:</h3>
+    <span id="total-price"></span>
+  </div>
+</div>
+
+<div class="inputArea">
+  <input type="text" id="name" />
+  <input type="text" id="price" />
+  <button onclick="addToCart()">Add To Cart</button>
+             
+          
+        </div>                   
+      </div>
+    </div>
+    
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          Shopping List2
+        </a>
+      </div>
+      
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+         <div class="container">
+
+
+
+   <div class="card">
+  <div class="header">
+    <h1> Shopping List2 </h1>
+  </div>
+  <div class="container">
+    <ul id="cart1">
+    </ul>
+  </div>
+  <div class="footer">
+    <h3>Total:</h3>
+    <span id="total-price1"></span>
+  </div>
+</div>
+
+
+<div class="inputArea">
+  <input type="text" id="name1" />
+  <input type="text" id="price1" />
+  <button onclick="addToCart1()">Add To Cart</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
