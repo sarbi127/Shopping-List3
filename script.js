@@ -20,6 +20,11 @@ function addToCart() {
   }
 }
 
+function removeFromCart(index) {
+  console.log(index);
+  var liEl = document.getElementById(index.toString()).remove();
+};
+
 var cartEl1 = document.getElementById('cart1');
 var inputNameEl1 = document.getElementById('name1');
 //var inputPriceEl1 = document.getElementById('price1');
@@ -37,11 +42,6 @@ function addToCart1() {
     //inputPriceEl1.value = "";
   }
 }
-
-function removeFromCart(index) {
-  console.log(index);
-  var liEl = document.getElementById(index.toString()).remove();
-};
 
 function removeFromCart1(index) {
   console.log(index);
